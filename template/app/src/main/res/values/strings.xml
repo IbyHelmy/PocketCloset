@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">mrcoBranch</string>
+
+    <string-array name="colours">
+    <item>White</item>
+    <item>Black</item>
+    <item>Blue</item>
+    <item>Brown</item>
+    <item>Red</item>
+    <item>Purple</item>
+    <item>Orange</item>
+    <item>Baige</item>
+</string-array>
+
+    <string-array name="Type">
+        <item>T Shirt</item>
+        <item>Long Sleeve Shirt</item>
+        <item>Pants</item>
+        <item>Shorts</item>
+        <item>Jacket</item>
+        <item>HeadGear</item>
+
+    </string-array>
+
+    <!---Change Matieral into something like Extra Info : Allows us to add more options without creating another category ?? -->
+    <string-array name="matieral">
+        <item>Denim</item>
+        <item>Whool</item>
+        <item>Cotton</item>
+        <item>Checkered</item>
+        <item>Leather</item>
+        <item>Cargo</item>
+    </string-array>
+
 </resources>
