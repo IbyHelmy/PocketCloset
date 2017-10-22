@@ -13,8 +13,23 @@ public class MainPage extends AppCompatActivity {
         setContentView(R.layout.activity_main_page);
     }
 
+    void viewCloset(View v){
+        Intent intent = new Intent(MainPage.this, ViewCloset.class);
+        startActivity(intent);
+    }
+
     void addClothes(View v){
         Intent intent = new Intent(MainPage.this, AddClothes.class);
+        startActivity(intent);
+    }
+
+    void packMyBag(View v){
+        Intent intent = new Intent(MainPage.this, PackMyBag.class);
+        startActivity(intent);
+    }
+
+    void openSettings(View v){
+        Intent intent = new Intent(MainPage.this, SettingsActivity.class);
         startActivity(intent);
     }
 }

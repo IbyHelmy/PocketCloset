@@ -16,7 +16,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddClothes"></activity>
+        <activity android:name=".AddClothes"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pocketdevs.pocketcloset.MainPage" />
+        </activity>
+        <activity android:name=".PackMyBag"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pocketdevs.pocketcloset.MainPage" />
+        </activity>
+        <activity
+            android:name=".ViewCloset"
+            android:parentActivityName=".MainPage">
+          <meta-data
+           android:name="android.support.PARENT_ACTIVITY"
+           android:value="com.example.pocketdevs.pocketcloset.MainPage" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pocketdevs.pocketcloset.MainPage" />
+        </activity>
     </application>
 
 </manifest>
