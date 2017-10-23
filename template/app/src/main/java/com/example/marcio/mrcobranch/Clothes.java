@@ -7,15 +7,16 @@ package com.example.marcio.mrcobranch;
 public class Clothes {
 
     String name;
+    String SubType;
     String colour;
     String type;
     String material;
     String photoId;
-    String wheather;
+    int wheather;
 
-    public Clothes(String n,String c,String t, String m, String pId){
+    public Clothes(String subType,String c,String t, String m, String pId){
 
-        name=n;
+        SubType= subType;
         colour =c;
         type = t;
         material=m;
@@ -24,6 +25,9 @@ public class Clothes {
 
     public String getType() {
         return type;
+    }
+
+    public String getSubType() {return SubType;
     }
 
     public String getColour() {
@@ -56,6 +60,9 @@ public class Clothes {
 
     public void setColour(String colour) {
         this.colour = colour;
+    }
+
+    public void setSubType(String subType) {SubType = subType;
     }
 
     public void setPhotoId(String photoId) {

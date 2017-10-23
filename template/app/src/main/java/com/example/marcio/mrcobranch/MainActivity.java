@@ -1,12 +1,15 @@
 package com.example.marcio.mrcobranch;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
@@ -14,6 +17,15 @@ import android.widget.TextView;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+    static final int REQUEST_IMAGE_CAPTURE = 1;
+
+    private void dispatchTakePictureIntent() {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,12 +37,19 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
        imageButton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
+               //Add Camera code
+               //For now test objects
+               dispatchTakePictureIntent();
 
            }
 
 
 
        });
+
+
+
+
             //Add the items into the spinner for the drop down menu
         Spinner spinner = (Spinner) findViewById(R.id.clothingColour);
         // Create an ArrayAdapter using the string array and a default spinner layout
@@ -43,10 +62,71 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
         spinner.setOnItemSelectedListener(this);
-        String myStr = spinner.getSelectedItem().toString();
-        EditText test1 = (EditText) findViewById(R.id.testResult1);
-        test1.setText(myStr);
-        Log.w("Heeeeere",myStr);
+        final String colour = spinner.getSelectedItem().toString();
+
+
+
+        //Code for style
+        Spinner typeSpinner = (Spinner) findViewById(R.id.clothingType);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
+                R.array.type, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        typeSpinner.setAdapter(adapter2);
+
+
+        typeSpinner.setOnItemSelectedListener(this);
+        final String type = typeSpinner.getSelectedItem().toString();
+
+
+
+        //Code for SubStyle menu
+        Spinner subSpinnerType = (Spinner) findViewById(R.id.subSpinnerType);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(this,
+                R.array.type, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        subSpinnerType.setAdapter(adapter3);
+
+
+        subSpinnerType.setOnItemSelectedListener(this);
+        final String subType = subSpinnerType.getSelectedItem().toString();
+
+
+//Code for Material
+        Spinner clothingMaterial = (Spinner) findViewById(R.id.clothingType);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter4 = ArrayAdapter.createFromResource(this,
+                R.array.type, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        clothingMaterial.setAdapter(adapter4);
+
+
+        clothingMaterial.setOnItemSelectedListener(this);
+        final String material = clothingMaterial.getSelectedItem().toString();
+
+
+
+
+        Button addClothesButton = (Button) findViewById(R.id.addClothesButton);
+        addClothesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Create Object
+                Clothes newClothing = new Clothes(subType,colour,type,material, "photo strinf");
+
+                Log.i("ads", newClothing.getColour());
+            }
+
+
+
+        });
 
     }
 

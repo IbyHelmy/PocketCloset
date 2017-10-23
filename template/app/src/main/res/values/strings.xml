@@ -12,7 +12,7 @@
     <item>Baige</item>
 </string-array>
 
-    <string-array name="Type">
+    <string-array name="type">
         <item>T Shirt</item>
         <item>Long Sleeve Shirt</item>
         <item>Pants</item>
@@ -23,10 +23,19 @@
     </string-array>
 
     <!---Change Matieral into something like Extra Info : Allows us to add more options without creating another category ?? -->
-    <string-array name="matieral">
+    <string-array name="material">
         <item>Denim</item>
         <item>Whool</item>
         <item>Cotton</item>
+        <item>Checkered</item>
+        <item>Leather</item>
+        <item>Cargo</item>
+    </string-array>
+
+    <string-array name="subStyle">
+        <item>stuff1</item>
+        <item>stuff2</item>
+        <item>stuff2</item>
         <item>Checkered</item>
         <item>Leather</item>
         <item>Cargo</item>
