@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\d37c694634ce612a4ae4e683721f6fba5ad4cf83\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_493bd77c3319498f8f30e44c878c72c4a61785f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\16bc64a18b8e1548d663ed4be49f975020b69b79\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16f108b99437bb1c1fc04c3c3b536a89716189af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\b023c879bfdce2aab749ddedadf0b1fd5ee623e6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34cfe4cd5e7bbc6ca55d7ed7e1570e849b713373\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\7aff39e6f21d14c8d6037333d6ba991bacf7bfa9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c72360bbaa977d64c1add11d194a7c5e2a09831\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_62f585d5b41332c49a1228e8d0fa5aac1f748374\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\d7f7bc505aa57c0046d1588b7312ea253108a2fe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_40f5f98460c08fabf546b120160d7fbd6bdacbb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\4abbb78a61ec8144a04238056964be9610f01065\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_90a36310e4dbb7a93a196f826768702b843e6b9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\c5d98e460b12a70a39154e81f70849d493bf379f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_10de7a3f8a29b0ca858f3feed213362b0f2b13fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\1451c88dd8b568000264edf5103272c5c86db2c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_875e329593faacddce3c26a03c24baa3c09e58fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="530db45b20370b11c4c0f6df3d70f431f993e6be">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5e47cf35f0519a53e5ab3bfd93b45804ae12db1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_2e90cad3737faf7e96b58483c11778dc1d0717d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcio\.android\build-cache\110561a3b5a19464d9095117bfa787e9597cc1dd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Marcio\Documents\GitHub\PocketCloset\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35ca11978340eff223239534b1c22ba5db358aa1\classes.dex" />
+    </item>
+
+</items>

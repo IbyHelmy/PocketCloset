@@ -2,6 +2,7 @@ package com.example.marcio.mrcobranch;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -19,60 +20,32 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.util.Log;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import android.graphics.Bitmap;
+import android.widget.ImageView;
+import static android.R.attr.bitmap;
 
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    String mCurrentPhotoPath;
-    String photoId;
-    private File createImageFile() throws IOException {
-        // Create an image file name
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        String imageFileName = "JPEG_" + timeStamp + "_pocketCloset";
-        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        File image = File.createTempFile(
-                imageFileName,  /* prefix */
-                ".jpg",         /* suffix */
-                storageDir      /* directory */
-        );
 
-        // Save a file: path for use with ACTION_VIEW intents
-        mCurrentPhotoPath = image.getAbsolutePath();
-        return image;
 
-    }
-    static final int REQUEST_TAKE_PHOTO = 1;
 
-    private void dispatchTakePictureIntent() {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        // Ensure that there's a camera activity to handle the intent
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            // Create the File where the photo should go
-            File photoFile = null;
-            try {
-                photoFile = createImageFile();
-            } catch (IOException ex) {
-                // Error occurred while creating the File
 
-            }
-            // Continue only if the File was successfully created
-            if (photoFile != null) {
-                Uri photoURI = FileProvider.getUriForFile(this,
-                        "com.example.android.fileprovider",
-                        photoFile);
-                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
-                startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
-            }
-        }
-    }
+    private static final int CAMERA_REQUEST = 1888;
+    private ImageView imageView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        imageView = (ImageView)this.findViewById(R.id.imageVeiwer);
+
 
         //Code to add in the Camera when this button is pressed, open up the cameera
         ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton);
@@ -81,8 +54,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
            public void onClick(View v) {
                //Add Camera code
                //For now test objects
-               dispatchTakePictureIntent();
 
+               Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+               startActivityForResult(cameraIntent, CAMERA_REQUEST);
            }
 
 
@@ -161,9 +135,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             @Override
             public void onClick(View v) {
                 //Create Object
-                Clothes newClothing = new Clothes(subType,colour,type,material, "photo strinf");
+                Clothes newClothing = new Clothes(subType,colour,type,material, "as");
 
-                Log.i("ads", newClothing.getColour());
             }
 
 
@@ -171,6 +144,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         });
 
     }
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == CAMERA_REQUEST && resultCode == Activity.RESULT_OK) {
+            Bitmap photo = (Bitmap) data.getExtras().get("data");
+            imageView.setImageBitmap(photo);
+        }
+    }
+
+
+
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -197,4 +179,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             // Another interface callback
         }
     }
+
+
 }

@@ -1,0 +1,7 @@
+#Mon Oct 23 19:28:21 EDT 2017
+base.0=C\:\\Users\\Marcio\\Documents\\GitHub\\PocketCloset\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5e47cf35f0519a53e5ab3bfd93b45804ae12db1b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Marcio\\Documents\\GitHub\\PocketCloset\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_62f585d5b41332c49a1228e8d0fa5aac1f748374\\classes.dex
+base.1=C\:\\Users\\Marcio\\Documents\\GitHub\\PocketCloset\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_62f585d5b41332c49a1228e8d0fa5aac1f748374
+file.0=C\:\\Users\\Marcio\\Documents\\GitHub\\PocketCloset\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5e47cf35f0519a53e5ab3bfd93b45804ae12db1b\\classes.dex

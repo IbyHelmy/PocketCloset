@@ -21,6 +21,8 @@ public class Clothes {
         type = t;
         material=m;
         photoId=pId;
+
+        setWheather();
     }
 
     public String getType() {
@@ -67,5 +69,11 @@ public class Clothes {
 
     public void setPhotoId(String photoId) {
         this.photoId = photoId;
+    }
+
+    public void setWheather() {
+
+
+
     }
 }
