@@ -11,6 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <uses-feature android:name="android.hardware.camera" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -21,6 +23,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"></meta-data>
         </provider>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
