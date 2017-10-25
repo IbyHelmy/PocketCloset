@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:5:5-38:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\University\.android\build-cache\cdb1ef16631882cffa1152499bbaea43e73359ac\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\University\.android\build-cache\f4d9c7d92dcacd44618a2bf6a0520cee62ddbe22\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\University\.android\build-cache\ec87a5b1770cb42be230b75fca893d760cb37c4c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\University\.android\build-cache\b8fd2a4da751f44b558e5a5bc2431f341642dc49\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\University\.android\build-cache\9e2ef3c39c2c8a9919a766193d575999409ae56c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\University\.android\build-cache\99407aff795a9cc855675baae5201f1b58281f2e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\University\.android\build-cache\2a8f5330d2698b68c80b9cbd348ee660efa9368a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\University\.android\build-cache\126acd60ee183c1a0bd83c1026d73d3f81af6034\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\University\.android\build-cache\7e6bcf81c75dc3eb8335923d83714e2e756f6a69\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\University\.android\build-cache\c8c8981ed6ed1ac18340dcc16074cd047be41a52\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.pocketdevs.pocketcloset.MainActivity
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.pocketdevs.pocketcloset.AddClothes
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:19:9-24:20
+	android:parentActivityName
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:20:13-55
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:19:19-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:21:13-23:84
+	android:value
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:23:17-81
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:22:17-63
+activity#com.example.pocketdevs.pocketcloset.ViewCloset
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:parentActivityName
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:27:13-55
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:26:13-39
+activity#com.example.pocketdevs.pocketcloset.PackMyBag
+ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:32:9-37:20
+	android:parentActivityName
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:33:13-55
+	android:name
+		ADDED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml:32:19-44
+uses-sdk
+INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\University\.android\build-cache\cdb1ef16631882cffa1152499bbaea43e73359ac\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\University\.android\build-cache\f4d9c7d92dcacd44618a2bf6a0520cee62ddbe22\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\University\.android\build-cache\ec87a5b1770cb42be230b75fca893d760cb37c4c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\University\.android\build-cache\b8fd2a4da751f44b558e5a5bc2431f341642dc49\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\University\.android\build-cache\9e2ef3c39c2c8a9919a766193d575999409ae56c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\University\.android\build-cache\99407aff795a9cc855675baae5201f1b58281f2e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\University\.android\build-cache\2a8f5330d2698b68c80b9cbd348ee660efa9368a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\University\.android\build-cache\126acd60ee183c1a0bd83c1026d73d3f81af6034\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\University\.android\build-cache\7e6bcf81c75dc3eb8335923d83714e2e756f6a69\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\University\.android\build-cache\c8c8981ed6ed1ac18340dcc16074cd047be41a52\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\University\.android\build-cache\cdb1ef16631882cffa1152499bbaea43e73359ac\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\University\.android\build-cache\cdb1ef16631882cffa1152499bbaea43e73359ac\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\University\.android\build-cache\f4d9c7d92dcacd44618a2bf6a0520cee62ddbe22\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\University\.android\build-cache\ec87a5b1770cb42be230b75fca893d760cb37c4c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\University\.android\build-cache\b8fd2a4da751f44b558e5a5bc2431f341642dc49\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\University\.android\build-cache\9e2ef3c39c2c8a9919a766193d575999409ae56c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\University\.android\build-cache\99407aff795a9cc855675baae5201f1b58281f2e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\University\.android\build-cache\2a8f5330d2698b68c80b9cbd348ee660efa9368a\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\University\.android\build-cache\126acd60ee183c1a0bd83c1026d73d3f81af6034\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\University\.android\build-cache\7e6bcf81c75dc3eb8335923d83714e2e756f6a69\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\University\.android\build-cache\cdb1ef16631882cffa1152499bbaea43e73359ac\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\University\.android\build-cache\cdb1ef16631882cffa1152499bbaea43e73359ac\output\AndroidManifest.xml:26:9-47
