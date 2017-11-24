@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="materialList">
+        <item>Cotton</item>
+        <item>Leather</item>
+        <item>Fur</item>
+        <item>Wool</item>
+        <item>Silk</item>
+        <item>Spandex</item>
+        <item>Nylon</item>
+        <item>Polyester</item>
+        <item>Flannel</item>
+    </array>
+
+    <array name="colorList">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Grey</item>
+        <item>White</item>
+    </array>
+
+    <array name="typeList">
+        <item>Headwear</item>
+        <item>Topwear</item>
+        <item>Bottomwear</item>
+        <item>Footwear</item>
+        <item>Outerwear</item>
+        <item>Skirts</item>
+        <item>Dresses</item>
+        <item>Accessories</item>
+    </array>
+
+    <array name="headwearList">
+        <item>Cap</item>
+        <item>Fedora</item>
+        <item>Hijab</item>
+        <item>Turban</item>
+        <item>Beanie</item>
+        <item>Hat</item>
+    </array>
+
+    <array name="topsList">
+        <item>Shirt</item>
+        <item>T-Shirt</item>
+        <item>Dress Shirts</item>
+        <item>Blouse</item>
+        <item>Long Sleeve Top</item>
+        <item>Sweater</item>
+        <item>Hoodie</item>
+        <item>Turtleneck</item>
+    </array>
+
+    <array name="bottomsList">
+        <item>Jeans</item>
+        <item>Chinos</item>
+        <item>Khakis</item>
+        <item>Dress Pants</item>
+        <item>Cargo Pants</item>
+        <item>Shorts</item>
+        <item>Yoga Pants</item>
+        <item>Leggings</item>
+        <item>Sweat Pants</item>
+    </array>
+
+    <array name="footwearList">
+        <item>Shoes</item>
+        <item>Boots</item>
+        <item>Dress Shoes</item>
+        <item>Sneakers</item>
+        <item>Flip Flops</item>
+        <item>Sandals</item>
+        <item>Slippers</item>
+        <item>Sport Shoes</item>
+        <item>Heels</item>
+        <item>Flats</item>
+    </array>
+
+    <array name="outerwearList">
+        <item>Coat</item>
+        <item>Jacket</item>
+        <item>Rain Coat</item>
+        <item>Winter Coat</item>
+        <item>Light Jacket</item>
+        <item>Blazer</item>
+        <item>Heavy Jacket</item>
+    </array>
+
+    <array name="dressList">
+        <item>Coat Dress</item>
+        <item>Cocktail Dress</item>
+        <item>Evening Gown</item>
+        <item>Slip Dress</item>
+        <item>Strapless Dress</item>
+        <item>Strip Dress</item>
+        <item>SunDress</item>
+        <item>Wrap Dress</item>
+    </array>
+
+    <array name="skirtList">
+        <item>A-line Skirt</item>
+        <item>Mini Skirt</item>
+        <item>Pencil Skirt</item>
+        <item>Tube Skirt</item>
+        <item>Mini Skirt</item>
+        <item>Box Pleated</item>
+    </array>
+
+    <array name="accessoriesList">
+        <item>Belt</item>
+        <item>Coin Purse</item>
+        <item>Sun Glasses</item>
+        <item>Gloves</item>
+        <item>Handbag</item>
+        <item>Umbrella</item>
+        <item>Watch</item>
+        <item>Wallet</item>
+        <item>Scarf</item>
+        <item>Necktie</item>
+        <item>Bowtie</item>
+        <item>Gloves</item>
+    </array>
+
+    <array name="testValueList">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+</resources>

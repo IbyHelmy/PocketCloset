@@ -1,61 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/final_logo"
-    tools:context="com.example.pocketdevs.pocketcloset.MainActivity">
+    android:background="@drawable/wall_paper"
+    android:fillViewport="true"
+    tools:context="com.example.pocketdevs.pocketcloset.ui.MainActivity">
 
-    <Button
-        android:id="@+id/viewCloset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="viewCloset"
-        android:text="View Closet"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/packMyBag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="packMyBag"
-        android:text="Pack My Bag"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/pocketClosetLogo"
+            android:layout_width="366dp"
+            android:layout_height="128dp"
+            app:srcCompat="@drawable/new_logo" />
 
-    <Button
-        android:id="@+id/addClothes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="addClothes"
-        android:text="Add Clothes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.702" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-</android.support.constraint.ConstraintLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/sunny_icon" />
+
+            <Button
+                android:text="Temperature"
+                android:id="@+id/weathInfo"
+                android:theme="@style/ThemeOverlay.DeleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/viewCloset"
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:background="@drawable/view_closet2"
+            android:onClick="viewCloset" />
+
+        <Button
+            android:id="@+id/addClothes"
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:background="@drawable/add_clothes2"
+            android:onClick="addClothes" />
+
+        <Button
+            android:id="@+id/packMyBag"
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="75dp"
+            android:background="@drawable/pack_my_bag2"
+            android:onClick="outfitButton" />
+
+    </LinearLayout>
+</ScrollView>

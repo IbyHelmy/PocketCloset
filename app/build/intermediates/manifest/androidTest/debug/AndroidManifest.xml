@@ -3,7 +3,7 @@
     package="com.example.pocketdevs.pocketcloset.test" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="19"
         android:targetSdkVersion="26" />
 
     <instrumentation
@@ -13,7 +13,7 @@
         android:label="Tests for com.example.pocketdevs.pocketcloset"
         android:targetPackage="com.example.pocketdevs.pocketcloset" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

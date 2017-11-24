@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pocket Closet</string>
+    <string name="selectM">Select Material</string>
+    <string name="selectT">Select Type</string>
+    <string name="selectC">Select Color</string>
+    <string name="title_activity_view_image">View Item</string>
+
 </resources>
