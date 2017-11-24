@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PocketCloset.iml" filepath="$PROJECT_DIR$/PocketCloset.iml" />
+      <module fileurl="file://C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\PocketCloset.iml" filepath="C:\Users\University\Documents\Fall2017\COMP3004\PocketCloset\PocketCloset.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
